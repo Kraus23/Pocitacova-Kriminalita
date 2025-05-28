@@ -3,14 +3,61 @@
 <head>
   <title>Hacking</title>
   <style>
-    body {background-color: #808080;color: white; font-size: 20px; font-family: Arial, sans-serif;}
+    body {
+      background-color: #808080;
+      color: white;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
 
-    h1 { font-size: 32px;}
-    h2 {font-size: 26px;margin-top: 30px;}
+    h1 {
+      font-size: 32px;
+      padding: 20px;
+    }
 
-    p, ul {font-size: 20px;}.content-container {display: flex; justify-content: space-between;  align-items: flex-end; margin-bottom: 30px;
-    }.text-content {max-width: 65%; /}img {width: 250px;height: auto;margin-left: 20px;
-    }a {display: block; margin-top: 30px;text-align: center; color: white; text-decoration: underline;}
+    h2 {
+      font-size: 26px;
+      margin-top: 30px;
+    }
+
+    p, ul {
+      font-size: 20px;
+    }
+
+    .content-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* zarovná vertikálne do stredu */
+      flex: 1;
+      padding: 0 20px 30px;
+    }
+
+    .text-content {
+      max-width: 65%;
+    }
+
+    img {
+      width: 500px;
+      height: 300px;
+      object-fit: cover;
+      align-self: center;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: auto;
+      padding: 20px;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -55,12 +102,12 @@
       </ul>
     </div>
 
-    <img src="Priečinok/Hacker-Hero-a1.jpg" alt="Hacker" style="width: 500px;height: 300px;>
+    <img src="Priečinok/Hacker-Hero-a1.jpg" alt="Hacker">
   </div>
-<p>
-    <a href="index.html">Hlavná stránka</a>  
-  </p>
 
+  <footer>
+    <a href="index.html">Hlavná stránka</a>
+  </footer>
 
 </body>
 </html>

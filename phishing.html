@@ -3,12 +3,61 @@
 <head>
   <title>Phishing</title>
   <style>
-    body {background-color: #c0d896;color: black;font-family: Arial, sans-serif;font-size: 18px; margin: 20px; }
-    h1, h2 {text-decoration: underline;}
-    .images {float: right;margin-left: 20px; display: flex; flex-direction: column; gap: 20px; max-width: 270px; }
-    .images img {max-width: 250px; height: auto;display: block;}
-    a {color: blue;  text-decoration: none; margin-right: 15px;}
-   a:hover {text-decoration: underline;}p, ul { max-width: 650px;
+    body {
+      background-color: #c0d896;
+      color: black;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      text-decoration: underline;
+    }
+
+    .content-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .text-content {
+      max-width: 65%;
+    }
+
+    .images {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-end;
+    }
+
+    .images img {
+      width: 300px;
+      height: auto;
+      border: 1px solid #333;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    p, ul {
+      max-width: 650px;
     }
   </style>
 </head>
@@ -16,32 +65,35 @@
 
   <h1>Phishing</h1>
 
-  <div class="images">
-    <img src="Priečinok/what-is-phishing.jpg" alt="Phishing ilustrácia" style="width: 400px;height: 300px;>
-    <img src="Priečinok/spear-phishing.jpeg" alt="Phishing" style="width: 200px;height: 100px;>
+  <div class="content-container">
+    <div class="text-content">
+      <p>Phishing je podvodná technika, pri ktorej sa útočníci snažia získať citlivé údaje (napríklad prihlasovacie mená, heslá, čísla kreditných kariet) tým, že sa vydávajú za dôveryhodnú osobu alebo organizáciu.</p>
+
+      <h2>Ako phishing funguje:</h2>
+      <ul>
+        <li>Útočník pošle podvodný e-mail alebo vytvorí falošnú webovú stránku, ktorá vyzerá veľmi dôveryhodne.</li>
+        <li>Používateľ je vyzvaný, aby zadal svoje údaje, napríklad prihlasovacie meno a heslo.</li>
+        <li>Tieto údaje potom útočník zneužije na krádež identity, prístup k bankovým účtom alebo iné škodlivé účely.</li>
+      </ul>
+
+      <h2>Ako sa chrániť:</h2>
+      <ul>
+        <li>Nikdy nezadávaj svoje heslo alebo citlivé údaje na stránkach, ktoré nepoznáš alebo ktoré vyzerajú podozrivo.</li>
+        <li>Skontroluj adresu webovej stránky – phishingové stránky často používajú veľmi podobné, ale nesprávne adresy.</li>
+        <li>Buď opatrný pri e-mailoch, ktoré ťa vyzývajú k rýchlej akcii alebo k stiahnutiu príloh.</li>
+        <li>Používaj dvojfaktorové overenie tam, kde je to možné.</li>
+      </ul>
+    </div>
+
+    <div class="images">
+      <img src="Priečinok/what-is-phishing.jpg" alt="Phishing ilustrácia">
+      <img src="Priečinok/spear-phishing.jpeg" alt="Phishing">
+    </div>
   </div>
 
-  <p>Phishing je podvodná technika, pri ktorej sa útočníci snažia získať citlivé údaje (napríklad prihlasovacie mená, heslá, čísla kreditných kariet) tým, že sa vydávajú za dôveryhodnú osobu alebo organizáciu.</p>
-
-  <h2>Ako phishing funguje:</h2>
-  <ul>
-    <li>Útočník pošle podvodný e-mail alebo vytvorí falošnú webovú stránku, ktorá vyzerá veľmi dôveryhodne.</li>
-    <li>Používateľ je vyzvaný, aby zadal svoje údaje, napríklad prihlasovacie meno a heslo.</li>
-    <li>Tieto údaje potom útočník zneužije na krádež identity, prístup k bankovým účtom alebo iné škodlivé účely.</li>
-  </ul>
-
-  <h2>Ako sa chrániť:</h2>
-  <ul>
-    <li>Nikdy nezadávaj svoje heslo alebo citlivé údaje na stránkach, ktoré nepoznáš alebo ktoré vyzerajú podozrivo.</li>
-    <li>Skontroluj adresu webovej stránky  – phishingové stránky často používajú veľmi podobné, ale nesprávne adresy.</li>
-    <li>Buď opatrný pri e-mailoch, ktoré ťa vyzývajú k rýchlej akcii alebo k stiahnutiu príloh.</li>
-    <li>Používaj dvojfaktorové overenie  tam, kde je to možné.</li>
-  </ul>
-
-  <p>
-    <a href="index.html">Hlavná stránka</a> 
-   
-  </p>
+  <footer>
+    <a href="index.html">Hlavná stránka</a>
+  </footer>
 
 </body>
 </html>

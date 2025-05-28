@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Online podvody</title>
+    <style>
+        body {
+            background-color: #5a6ad3;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 25px;
+            text-decoration: underline;
+        }
+
+        img {
+            width: 400px;
+            height: 250px;
+            float: right;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .center-bottom {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Čo sú to online podvody?</h2>
+    <p>
+        Online podvody sú rôzne formy klamstva a manipulácie, ktoré sa dejú cez internet s cieľom oklamať ľudí, získať od nich peniaze alebo osobné údaje.
+    </p>
+
+    <img src="https://via.placeholder.com/400x250.png?text=Online+Podvod" alt="Online podvod">
+
+    <h2>Najčastejšie typy online podvodov</h2>
+    <ul>
+        <li><strong>Falošné obchody:</strong> Weby, ktoré predávajú neexistujúci tovar.</li>
+        <li><strong>Romantické podvody:</strong> Podvodníci sa vydávajú za partnerov a žiadajú peniaze.</li>
+        <li><strong>Investičné podvody:</strong> Ponuky na zaručený zisk, najmä cez kryptomeny.</li>
+        <li><strong>Správy o výhre:</strong> Vyžadujú poplatok za vymyslenú výhru.</li>
+        <li><strong>Únos účtu:</strong> Ukradnutý účet na sociálnej sieti slúži na ďalšie podvody.</li>
+    </ul>
+
+    <h2>Ochrana pred podvodmi</h2>
+    <ul>
+        <li>Neposkytuj citlivé údaje neznámym osobám.</li>
+        <li>Kontroluj bezpečnosť stránok (https).</li>
+        <li>Buď opatrný pri výhodných ponukách.</li>
+        <li>Neposielaj peniaze neznámym ľuďom.</li>
+        <li>Používaj silné heslá a dvojfaktorové overenie.</li>
+    </ul>
+
+    <div class="center-bottom">
+        <a href="index.html">Späť na hlavnú stránku</a>
+    </div>
+
+</body>
+</html>
